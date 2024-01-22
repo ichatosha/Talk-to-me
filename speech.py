@@ -53,14 +53,17 @@ with sr.Microphone() as srm:
             elif text in "how are you":
                     engine.say("iam fine thanks")
                     engine.runAndWait()
+                    
             elif text in ["Google Chrome" , "chrome" , "google"]:
                     #with open("C:\Program Files\Google\Chrome\Application\chrome.exe", "r+") as file:
                             #print(file)             
                     res = os.startfile(r"C:\Program Files\Google\Chrome\Application\chrome.exe")
-                    print(res) 
-            #elif text in ["calculator" , "Calc" ]:
-             #       res = os.startfile("")    
+                    print(res)      
                     
+            elif text in ["calculator" , "Calc" ]:
+                    res = os.startfile(r"C:\Windows\System32\calc.exe")    
+              
+              # To run this op. >> create shortcut of youtube website and save it in Downloads folder      
             elif text in ["YouTube" , "youtube" , "you tube"]:
                     res = os.startfile(r"C:\Users\HESHAM\Downloads\www_youtube_default.html") 
                     print(res)            
