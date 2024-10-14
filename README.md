@@ -1,1 +1,2 @@
-creating app you can talk with him and you can ask him for time for example and you can ask him to open specific app like google chrome.
+# Talk To Me
+A Python-based virtual assistant application that responds to voice commands, providing information like time or opening applications.
